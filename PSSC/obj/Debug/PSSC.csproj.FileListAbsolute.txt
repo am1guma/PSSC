@@ -1,7 +1,6 @@
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\bin\Debug\PSSC.exe.config
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\bin\Debug\PSSC.exe
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\bin\Debug\PSSC.pdb
-C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\obj\Debug\PSSC.csprojResolveAssemblyReference.cache
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\obj\Debug\PSSC.Properties.Resources.resources
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\obj\Debug\PSSC.csproj.GenerateResource.Cache
 C:\Users\Oana Maria Palcu\Desktop\PSSC\PSSC\obj\Debug\PSSC.exe

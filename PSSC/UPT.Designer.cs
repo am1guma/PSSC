@@ -112,6 +112,7 @@
             this.data_nasteriiDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.cNPTextBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.noteDataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -125,6 +126,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.noteDataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -138,17 +140,17 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.studentiTableAdapter = new PSSC.DatabaseDataSetTableAdapters.StudentiTableAdapter();
-            this.tableAdapterManager = new PSSC.DatabaseDataSetTableAdapters.TableAdapterManager();
-            this.materii_predateTableAdapter = new PSSC.DatabaseDataSetTableAdapters.Materii_predateTableAdapter();
-            this.noteTableAdapter = new PSSC.DatabaseDataSetTableAdapters.NoteTableAdapter();
-            this.profesoriTableAdapter = new PSSC.DatabaseDataSetTableAdapters.ProfesoriTableAdapter();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.studentiTableAdapter = new PSSC.DatabaseDataSetTableAdapters.StudentiTableAdapter();
+            this.tableAdapterManager = new PSSC.DatabaseDataSetTableAdapters.TableAdapterManager();
+            this.materii_predateTableAdapter = new PSSC.DatabaseDataSetTableAdapters.Materii_predateTableAdapter();
+            this.noteTableAdapter = new PSSC.DatabaseDataSetTableAdapters.NoteTableAdapter();
+            this.profesoriTableAdapter = new PSSC.DatabaseDataSetTableAdapters.ProfesoriTableAdapter();
             nr_matricolLabel = new System.Windows.Forms.Label();
             numeLabel = new System.Windows.Forms.Label();
             prenumeLabel = new System.Windows.Forms.Label();
@@ -969,6 +971,7 @@
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
+            this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.noteDataGridView1);
             this.tabPage2.Controls.Add(numeLabel2);
@@ -992,6 +995,13 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "STUDENT";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(8, 74);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(619, 367);
+            this.panel1.TabIndex = 22;
             // 
             // label4
             // 
@@ -1098,6 +1108,7 @@
             // tabPage5
             // 
             this.tabPage5.AutoScroll = true;
+            this.tabPage5.Controls.Add(this.panel2);
             this.tabPage5.Controls.Add(this.button1);
             this.tabPage5.Controls.Add(this.noteDataGridView2);
             this.tabPage5.Controls.Add(numeLabel4);
@@ -1120,6 +1131,13 @@
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "PROFESOR";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(8, 74);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(619, 367);
+            this.panel2.TabIndex = 23;
             // 
             // button1
             // 
@@ -1236,30 +1254,14 @@
             this.tabPage6.Text = "ADMINISTRATOR CAMIN";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // studentiTableAdapter
+            // dataGridView1
             // 
-            this.studentiTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.Materii_predateTableAdapter = this.materii_predateTableAdapter;
-            this.tableAdapterManager.NoteTableAdapter = this.noteTableAdapter;
-            this.tableAdapterManager.ProfesoriTableAdapter = this.profesoriTableAdapter;
-            this.tableAdapterManager.StudentiTableAdapter = this.studentiTableAdapter;
-            this.tableAdapterManager.UpdateOrder = PSSC.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // materii_predateTableAdapter
-            // 
-            this.materii_predateTableAdapter.ClearBeforeFill = true;
-            // 
-            // noteTableAdapter
-            // 
-            this.noteTableAdapter.ClearBeforeFill = true;
-            // 
-            // profesoriTableAdapter
-            // 
-            this.profesoriTableAdapter.ClearBeforeFill = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(9, 41);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(618, 400);
+            this.dataGridView1.TabIndex = 10;
             // 
             // button2
             // 
@@ -1302,14 +1304,30 @@
             this.label8.Text = "Selectarea primilor                studenti cu medie cuprinsa intre              " +
     "  si               .";
             // 
-            // dataGridView1
+            // studentiTableAdapter
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(9, 41);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(618, 400);
-            this.dataGridView1.TabIndex = 10;
+            this.studentiTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.Materii_predateTableAdapter = this.materii_predateTableAdapter;
+            this.tableAdapterManager.NoteTableAdapter = this.noteTableAdapter;
+            this.tableAdapterManager.ProfesoriTableAdapter = this.profesoriTableAdapter;
+            this.tableAdapterManager.StudentiTableAdapter = this.studentiTableAdapter;
+            this.tableAdapterManager.UpdateOrder = PSSC.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // materii_predateTableAdapter
+            // 
+            this.materii_predateTableAdapter.ClearBeforeFill = true;
+            // 
+            // noteTableAdapter
+            // 
+            this.noteTableAdapter.ClearBeforeFill = true;
+            // 
+            // profesoriTableAdapter
+            // 
+            this.profesoriTableAdapter.ClearBeforeFill = true;
             // 
             // UPT
             // 
@@ -1450,6 +1468,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

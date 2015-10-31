@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PSSC
@@ -34,15 +31,10 @@ namespace PSSC
 
         private void UPTLoad(object sender, EventArgs e)
         {
-            // TODO: This line o/*f*/ code loads data into the 'databaseDataSet.Materii_predate' table. You can move, or remove it, as needed.
             this.materii_predateTableAdapter.Fill(this.databaseDataSet.Materii_predate);
-            // TODO: This line of code loads data into the 'databaseDataSet.Profesori' table. You can move, or remove it, as needed.
             this.profesoriTableAdapter.Fill(this.databaseDataSet.Profesori);
-            // TODO: This line of code loads data into the 'databaseDataSet.Note' table. You can move, or remove it, as needed.
             this.noteTableAdapter.Fill(this.databaseDataSet.Note);
-            // TODO: This line of code loads data into the 'databaseDataSet.Studenti' table. You can move, or remove it, as needed.
             this.studentiTableAdapter.Fill(this.databaseDataSet.Studenti);
-
             label3.Text = "Medie: " + medie(noteDataGridView);
         }
 
@@ -50,20 +42,26 @@ namespace PSSC
         {
             studentiBindingSource.Filter = "CONVERT(Nr_matricol, 'System.String') LIKE '" + textBox1.Text + "%'";
             label4.Text= "Medie: " + medie(noteDataGridView1);
+            if (textBox1.Text != "")
+                panel1.Hide();
+            else
+                panel1.Show();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             studentiBindingSource.Filter = "CONVERT(Nr_matricol, 'System.String') LIKE '" + textBox2.Text + "%'";
+            if (textBox2.Text != "")
+                panel2.Hide();
+            else
+                panel2.Show();
         }
 
         private double medie(DataGridView dgv)
         {
             int sum = 0;
             for (int i = 0; i < dgv.Rows.Count; i++)
-            {
                 sum += Convert.ToInt32(dgv.Rows[i].Cells[1].Value);
-            }
             return (double)sum / (dgv.RowCount - 1);
         }
 
