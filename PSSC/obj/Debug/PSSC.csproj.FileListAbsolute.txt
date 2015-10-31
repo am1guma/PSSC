@@ -14,3 +14,4 @@ C:\Users\Oana Maria Palcu\Documents\GitHub\PSSC\PSSC\bin\Debug\PSSC.pdb
 C:\Users\Oana Maria Palcu\Documents\GitHub\PSSC\PSSC\obj\Debug\PSSC.UPT.resources
 C:\Users\Oana Maria Palcu\Documents\GitHub\PSSC\PSSC\obj\Debug\PSSC.Properties.Resources.resources
 C:\Users\Oana Maria Palcu\Documents\GitHub\PSSC\PSSC\obj\Debug\PSSC.csproj.GenerateResource.Cache
+C:\Users\Oana Maria Palcu\Documents\GitHub\PSSC\PSSC\obj\Debug\PSSC.csprojResolveAssemblyReference.cache
