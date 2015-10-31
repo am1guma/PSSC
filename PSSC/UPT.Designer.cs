@@ -29,15 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label nr_matricolLabel;
-            System.Windows.Forms.Label numeLabel;
-            System.Windows.Forms.Label prenumeLabel;
-            System.Windows.Forms.Label data_nasteriiLabel;
-            System.Windows.Forms.Label cNPLabel;
-            System.Windows.Forms.Label facultateLabel;
-            System.Windows.Forms.Label sectieLabel;
-            System.Windows.Forms.Label anLabel;
-            System.Windows.Forms.Label grupaLabel;
             System.Windows.Forms.Label numeLabel1;
             System.Windows.Forms.Label prenumeLabel1;
             System.Windows.Forms.Label data_nasteriiLabel1;
@@ -54,6 +45,15 @@
             System.Windows.Forms.Label sectieLabel3;
             System.Windows.Forms.Label anLabel3;
             System.Windows.Forms.Label grupaLabel3;
+            System.Windows.Forms.Label nr_matricolLabel;
+            System.Windows.Forms.Label numeLabel;
+            System.Windows.Forms.Label prenumeLabel;
+            System.Windows.Forms.Label data_nasteriiLabel;
+            System.Windows.Forms.Label cNPLabel;
+            System.Windows.Forms.Label facultateLabel;
+            System.Windows.Forms.Label sectieLabel;
+            System.Windows.Forms.Label anLabel;
+            System.Windows.Forms.Label grupaLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UPT));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -151,15 +151,6 @@
             this.materii_predateTableAdapter = new PSSC.DatabaseDataSetTableAdapters.Materii_predateTableAdapter();
             this.noteTableAdapter = new PSSC.DatabaseDataSetTableAdapters.NoteTableAdapter();
             this.profesoriTableAdapter = new PSSC.DatabaseDataSetTableAdapters.ProfesoriTableAdapter();
-            nr_matricolLabel = new System.Windows.Forms.Label();
-            numeLabel = new System.Windows.Forms.Label();
-            prenumeLabel = new System.Windows.Forms.Label();
-            data_nasteriiLabel = new System.Windows.Forms.Label();
-            cNPLabel = new System.Windows.Forms.Label();
-            facultateLabel = new System.Windows.Forms.Label();
-            sectieLabel = new System.Windows.Forms.Label();
-            anLabel = new System.Windows.Forms.Label();
-            grupaLabel = new System.Windows.Forms.Label();
             numeLabel1 = new System.Windows.Forms.Label();
             prenumeLabel1 = new System.Windows.Forms.Label();
             data_nasteriiLabel1 = new System.Windows.Forms.Label();
@@ -176,6 +167,15 @@
             sectieLabel3 = new System.Windows.Forms.Label();
             anLabel3 = new System.Windows.Forms.Label();
             grupaLabel3 = new System.Windows.Forms.Label();
+            nr_matricolLabel = new System.Windows.Forms.Label();
+            numeLabel = new System.Windows.Forms.Label();
+            prenumeLabel = new System.Windows.Forms.Label();
+            data_nasteriiLabel = new System.Windows.Forms.Label();
+            cNPLabel = new System.Windows.Forms.Label();
+            facultateLabel = new System.Windows.Forms.Label();
+            sectieLabel = new System.Windows.Forms.Label();
+            anLabel = new System.Windows.Forms.Label();
+            grupaLabel = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -201,91 +201,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // nr_matricolLabel
-            // 
-            nr_matricolLabel.AutoSize = true;
-            nr_matricolLabel.Location = new System.Drawing.Point(22, 76);
-            nr_matricolLabel.Name = "nr_matricolLabel";
-            nr_matricolLabel.Size = new System.Drawing.Size(60, 13);
-            nr_matricolLabel.TabIndex = 0;
-            nr_matricolLabel.Text = "Nr matricol:";
-            // 
-            // numeLabel
-            // 
-            numeLabel.AutoSize = true;
-            numeLabel.Location = new System.Drawing.Point(22, 102);
-            numeLabel.Name = "numeLabel";
-            numeLabel.Size = new System.Drawing.Size(38, 13);
-            numeLabel.TabIndex = 2;
-            numeLabel.Text = "Nume:";
-            // 
-            // prenumeLabel
-            // 
-            prenumeLabel.AutoSize = true;
-            prenumeLabel.Location = new System.Drawing.Point(22, 128);
-            prenumeLabel.Name = "prenumeLabel";
-            prenumeLabel.Size = new System.Drawing.Size(52, 13);
-            prenumeLabel.TabIndex = 4;
-            prenumeLabel.Text = "Prenume:";
-            // 
-            // data_nasteriiLabel
-            // 
-            data_nasteriiLabel.AutoSize = true;
-            data_nasteriiLabel.Location = new System.Drawing.Point(22, 155);
-            data_nasteriiLabel.Name = "data_nasteriiLabel";
-            data_nasteriiLabel.Size = new System.Drawing.Size(69, 13);
-            data_nasteriiLabel.TabIndex = 6;
-            data_nasteriiLabel.Text = "Data nasterii:";
-            // 
-            // cNPLabel
-            // 
-            cNPLabel.AutoSize = true;
-            cNPLabel.Location = new System.Drawing.Point(22, 180);
-            cNPLabel.Name = "cNPLabel";
-            cNPLabel.Size = new System.Drawing.Size(32, 13);
-            cNPLabel.TabIndex = 8;
-            cNPLabel.Text = "CNP:";
-            // 
-            // facultateLabel
-            // 
-            facultateLabel.AutoSize = true;
-            facultateLabel.Location = new System.Drawing.Point(22, 206);
-            facultateLabel.Name = "facultateLabel";
-            facultateLabel.Size = new System.Drawing.Size(54, 13);
-            facultateLabel.TabIndex = 10;
-            facultateLabel.Text = "Facultate:";
-            // 
-            // sectieLabel
-            // 
-            sectieLabel.AutoSize = true;
-            sectieLabel.Location = new System.Drawing.Point(22, 233);
-            sectieLabel.Name = "sectieLabel";
-            sectieLabel.Size = new System.Drawing.Size(40, 13);
-            sectieLabel.TabIndex = 12;
-            sectieLabel.Text = "Sectie:";
-            // 
-            // anLabel
-            // 
-            anLabel.AutoSize = true;
-            anLabel.Location = new System.Drawing.Point(22, 256);
-            anLabel.Name = "anLabel";
-            anLabel.Size = new System.Drawing.Size(23, 13);
-            anLabel.TabIndex = 14;
-            anLabel.Text = "An:";
-            // 
-            // grupaLabel
-            // 
-            grupaLabel.AutoSize = true;
-            grupaLabel.Location = new System.Drawing.Point(22, 285);
-            grupaLabel.Name = "grupaLabel";
-            grupaLabel.Size = new System.Drawing.Size(39, 13);
-            grupaLabel.TabIndex = 16;
-            grupaLabel.Text = "Grupa:";
-            // 
             // numeLabel1
             // 
             numeLabel1.AutoSize = true;
-            numeLabel1.Location = new System.Drawing.Point(30, 124);
+            numeLabel1.Location = new System.Drawing.Point(29, 150);
             numeLabel1.Name = "numeLabel1";
             numeLabel1.Size = new System.Drawing.Size(38, 13);
             numeLabel1.TabIndex = 0;
@@ -294,7 +213,7 @@
             // prenumeLabel1
             // 
             prenumeLabel1.AutoSize = true;
-            prenumeLabel1.Location = new System.Drawing.Point(30, 150);
+            prenumeLabel1.Location = new System.Drawing.Point(29, 176);
             prenumeLabel1.Name = "prenumeLabel1";
             prenumeLabel1.Size = new System.Drawing.Size(52, 13);
             prenumeLabel1.TabIndex = 2;
@@ -303,7 +222,7 @@
             // data_nasteriiLabel1
             // 
             data_nasteriiLabel1.AutoSize = true;
-            data_nasteriiLabel1.Location = new System.Drawing.Point(30, 177);
+            data_nasteriiLabel1.Location = new System.Drawing.Point(29, 203);
             data_nasteriiLabel1.Name = "data_nasteriiLabel1";
             data_nasteriiLabel1.Size = new System.Drawing.Size(69, 13);
             data_nasteriiLabel1.TabIndex = 4;
@@ -312,7 +231,7 @@
             // cNPLabel1
             // 
             cNPLabel1.AutoSize = true;
-            cNPLabel1.Location = new System.Drawing.Point(30, 202);
+            cNPLabel1.Location = new System.Drawing.Point(29, 228);
             cNPLabel1.Name = "cNPLabel1";
             cNPLabel1.Size = new System.Drawing.Size(32, 13);
             cNPLabel1.TabIndex = 6;
@@ -321,7 +240,8 @@
             // numeLabel2
             // 
             numeLabel2.AutoSize = true;
-            numeLabel2.Location = new System.Drawing.Point(101, 147);
+            numeLabel2.BackColor = System.Drawing.Color.Transparent;
+            numeLabel2.Location = new System.Drawing.Point(86, 147);
             numeLabel2.Name = "numeLabel2";
             numeLabel2.Size = new System.Drawing.Size(38, 13);
             numeLabel2.TabIndex = 2;
@@ -330,7 +250,8 @@
             // prenumeLabel2
             // 
             prenumeLabel2.AutoSize = true;
-            prenumeLabel2.Location = new System.Drawing.Point(101, 170);
+            prenumeLabel2.BackColor = System.Drawing.Color.Transparent;
+            prenumeLabel2.Location = new System.Drawing.Point(86, 170);
             prenumeLabel2.Name = "prenumeLabel2";
             prenumeLabel2.Size = new System.Drawing.Size(52, 13);
             prenumeLabel2.TabIndex = 4;
@@ -339,7 +260,8 @@
             // facultateLabel1
             // 
             facultateLabel1.AutoSize = true;
-            facultateLabel1.Location = new System.Drawing.Point(101, 193);
+            facultateLabel1.BackColor = System.Drawing.Color.Transparent;
+            facultateLabel1.Location = new System.Drawing.Point(86, 193);
             facultateLabel1.Name = "facultateLabel1";
             facultateLabel1.Size = new System.Drawing.Size(54, 13);
             facultateLabel1.TabIndex = 6;
@@ -348,7 +270,8 @@
             // sectieLabel1
             // 
             sectieLabel1.AutoSize = true;
-            sectieLabel1.Location = new System.Drawing.Point(101, 216);
+            sectieLabel1.BackColor = System.Drawing.Color.Transparent;
+            sectieLabel1.Location = new System.Drawing.Point(86, 216);
             sectieLabel1.Name = "sectieLabel1";
             sectieLabel1.Size = new System.Drawing.Size(40, 13);
             sectieLabel1.TabIndex = 8;
@@ -357,7 +280,8 @@
             // anLabel1
             // 
             anLabel1.AutoSize = true;
-            anLabel1.Location = new System.Drawing.Point(101, 239);
+            anLabel1.BackColor = System.Drawing.Color.Transparent;
+            anLabel1.Location = new System.Drawing.Point(86, 239);
             anLabel1.Name = "anLabel1";
             anLabel1.Size = new System.Drawing.Size(23, 13);
             anLabel1.TabIndex = 10;
@@ -366,7 +290,8 @@
             // grupaLabel1
             // 
             grupaLabel1.AutoSize = true;
-            grupaLabel1.Location = new System.Drawing.Point(101, 262);
+            grupaLabel1.BackColor = System.Drawing.Color.Transparent;
+            grupaLabel1.Location = new System.Drawing.Point(86, 262);
             grupaLabel1.Name = "grupaLabel1";
             grupaLabel1.Size = new System.Drawing.Size(39, 13);
             grupaLabel1.TabIndex = 12;
@@ -375,7 +300,8 @@
             // numeLabel4
             // 
             numeLabel4.AutoSize = true;
-            numeLabel4.Location = new System.Drawing.Point(101, 147);
+            numeLabel4.BackColor = System.Drawing.Color.Transparent;
+            numeLabel4.Location = new System.Drawing.Point(86, 147);
             numeLabel4.Name = "numeLabel4";
             numeLabel4.Size = new System.Drawing.Size(38, 13);
             numeLabel4.TabIndex = 3;
@@ -384,7 +310,8 @@
             // prenumeLabel4
             // 
             prenumeLabel4.AutoSize = true;
-            prenumeLabel4.Location = new System.Drawing.Point(101, 170);
+            prenumeLabel4.BackColor = System.Drawing.Color.Transparent;
+            prenumeLabel4.Location = new System.Drawing.Point(86, 170);
             prenumeLabel4.Name = "prenumeLabel4";
             prenumeLabel4.Size = new System.Drawing.Size(52, 13);
             prenumeLabel4.TabIndex = 5;
@@ -393,7 +320,8 @@
             // facultateLabel3
             // 
             facultateLabel3.AutoSize = true;
-            facultateLabel3.Location = new System.Drawing.Point(101, 193);
+            facultateLabel3.BackColor = System.Drawing.Color.Transparent;
+            facultateLabel3.Location = new System.Drawing.Point(86, 193);
             facultateLabel3.Name = "facultateLabel3";
             facultateLabel3.Size = new System.Drawing.Size(54, 13);
             facultateLabel3.TabIndex = 7;
@@ -402,7 +330,8 @@
             // sectieLabel3
             // 
             sectieLabel3.AutoSize = true;
-            sectieLabel3.Location = new System.Drawing.Point(101, 216);
+            sectieLabel3.BackColor = System.Drawing.Color.Transparent;
+            sectieLabel3.Location = new System.Drawing.Point(86, 216);
             sectieLabel3.Name = "sectieLabel3";
             sectieLabel3.Size = new System.Drawing.Size(40, 13);
             sectieLabel3.TabIndex = 9;
@@ -411,7 +340,8 @@
             // anLabel3
             // 
             anLabel3.AutoSize = true;
-            anLabel3.Location = new System.Drawing.Point(101, 239);
+            anLabel3.BackColor = System.Drawing.Color.Transparent;
+            anLabel3.Location = new System.Drawing.Point(86, 239);
             anLabel3.Name = "anLabel3";
             anLabel3.Size = new System.Drawing.Size(23, 13);
             anLabel3.TabIndex = 11;
@@ -420,11 +350,93 @@
             // grupaLabel3
             // 
             grupaLabel3.AutoSize = true;
-            grupaLabel3.Location = new System.Drawing.Point(101, 262);
+            grupaLabel3.BackColor = System.Drawing.Color.Transparent;
+            grupaLabel3.Location = new System.Drawing.Point(86, 262);
             grupaLabel3.Name = "grupaLabel3";
             grupaLabel3.Size = new System.Drawing.Size(39, 13);
             grupaLabel3.TabIndex = 13;
             grupaLabel3.Text = "Grupa:";
+            // 
+            // nr_matricolLabel
+            // 
+            nr_matricolLabel.AutoSize = true;
+            nr_matricolLabel.Location = new System.Drawing.Point(29, 85);
+            nr_matricolLabel.Name = "nr_matricolLabel";
+            nr_matricolLabel.Size = new System.Drawing.Size(60, 13);
+            nr_matricolLabel.TabIndex = 0;
+            nr_matricolLabel.Text = "Nr matricol:";
+            // 
+            // numeLabel
+            // 
+            numeLabel.AutoSize = true;
+            numeLabel.Location = new System.Drawing.Point(29, 111);
+            numeLabel.Name = "numeLabel";
+            numeLabel.Size = new System.Drawing.Size(38, 13);
+            numeLabel.TabIndex = 2;
+            numeLabel.Text = "Nume:";
+            // 
+            // prenumeLabel
+            // 
+            prenumeLabel.AutoSize = true;
+            prenumeLabel.Location = new System.Drawing.Point(29, 137);
+            prenumeLabel.Name = "prenumeLabel";
+            prenumeLabel.Size = new System.Drawing.Size(52, 13);
+            prenumeLabel.TabIndex = 4;
+            prenumeLabel.Text = "Prenume:";
+            // 
+            // data_nasteriiLabel
+            // 
+            data_nasteriiLabel.AutoSize = true;
+            data_nasteriiLabel.Location = new System.Drawing.Point(29, 164);
+            data_nasteriiLabel.Name = "data_nasteriiLabel";
+            data_nasteriiLabel.Size = new System.Drawing.Size(69, 13);
+            data_nasteriiLabel.TabIndex = 6;
+            data_nasteriiLabel.Text = "Data nasterii:";
+            // 
+            // cNPLabel
+            // 
+            cNPLabel.AutoSize = true;
+            cNPLabel.Location = new System.Drawing.Point(29, 189);
+            cNPLabel.Name = "cNPLabel";
+            cNPLabel.Size = new System.Drawing.Size(32, 13);
+            cNPLabel.TabIndex = 8;
+            cNPLabel.Text = "CNP:";
+            // 
+            // facultateLabel
+            // 
+            facultateLabel.AutoSize = true;
+            facultateLabel.Location = new System.Drawing.Point(29, 215);
+            facultateLabel.Name = "facultateLabel";
+            facultateLabel.Size = new System.Drawing.Size(54, 13);
+            facultateLabel.TabIndex = 10;
+            facultateLabel.Text = "Facultate:";
+            // 
+            // sectieLabel
+            // 
+            sectieLabel.AutoSize = true;
+            sectieLabel.Location = new System.Drawing.Point(29, 242);
+            sectieLabel.Name = "sectieLabel";
+            sectieLabel.Size = new System.Drawing.Size(40, 13);
+            sectieLabel.TabIndex = 12;
+            sectieLabel.Text = "Sectie:";
+            // 
+            // anLabel
+            // 
+            anLabel.AutoSize = true;
+            anLabel.Location = new System.Drawing.Point(29, 265);
+            anLabel.Name = "anLabel";
+            anLabel.Size = new System.Drawing.Size(23, 13);
+            anLabel.TabIndex = 14;
+            anLabel.Text = "An:";
+            // 
+            // grupaLabel
+            // 
+            grupaLabel.AutoSize = true;
+            grupaLabel.Location = new System.Drawing.Point(29, 294);
+            grupaLabel.Name = "grupaLabel";
+            grupaLabel.Size = new System.Drawing.Size(39, 13);
+            grupaLabel.TabIndex = 16;
+            grupaLabel.Text = "Grupa:";
             // 
             // tabControl1
             // 
@@ -464,6 +476,9 @@
             // tabPage3
             // 
             this.tabPage3.AutoScroll = true;
+            this.tabPage3.BackColor = System.Drawing.Color.White;
+            this.tabPage3.BackgroundImage = global::PSSC.Properties.Resources.bkg;
+            this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.noteDataGridView);
             this.tabPage3.Controls.Add(this.studentiBindingNavigator);
@@ -491,12 +506,12 @@
             this.tabPage3.Size = new System.Drawing.Size(621, 417);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "INFO STUDENTI";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(372, 324);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(370, 352);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 20;
@@ -505,15 +520,16 @@
             // noteDataGridView
             // 
             this.noteDataGridView.AutoGenerateColumns = false;
+            this.noteDataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.noteDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.noteDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.noteDataGridView.DataSource = this.noteBindingSource;
-            this.noteDataGridView.Location = new System.Drawing.Point(338, 73);
+            this.noteDataGridView.Location = new System.Drawing.Point(319, 82);
             this.noteDataGridView.Name = "noteDataGridView";
             this.noteDataGridView.ReadOnly = true;
-            this.noteDataGridView.Size = new System.Drawing.Size(243, 229);
+            this.noteDataGridView.Size = new System.Drawing.Size(243, 249);
             this.noteDataGridView.TabIndex = 19;
             // 
             // dataGridViewTextBoxColumn3
@@ -673,7 +689,7 @@
             // nr_matricolTextBox
             // 
             this.nr_matricolTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Nr_matricol", true));
-            this.nr_matricolTextBox.Location = new System.Drawing.Point(97, 73);
+            this.nr_matricolTextBox.Location = new System.Drawing.Point(104, 82);
             this.nr_matricolTextBox.Name = "nr_matricolTextBox";
             this.nr_matricolTextBox.Size = new System.Drawing.Size(200, 20);
             this.nr_matricolTextBox.TabIndex = 1;
@@ -681,7 +697,7 @@
             // numeTextBox
             // 
             this.numeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Nume", true));
-            this.numeTextBox.Location = new System.Drawing.Point(97, 99);
+            this.numeTextBox.Location = new System.Drawing.Point(104, 108);
             this.numeTextBox.Name = "numeTextBox";
             this.numeTextBox.Size = new System.Drawing.Size(200, 20);
             this.numeTextBox.TabIndex = 3;
@@ -689,7 +705,7 @@
             // prenumeTextBox
             // 
             this.prenumeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Prenume", true));
-            this.prenumeTextBox.Location = new System.Drawing.Point(97, 125);
+            this.prenumeTextBox.Location = new System.Drawing.Point(104, 134);
             this.prenumeTextBox.Name = "prenumeTextBox";
             this.prenumeTextBox.Size = new System.Drawing.Size(200, 20);
             this.prenumeTextBox.TabIndex = 5;
@@ -698,7 +714,7 @@
             // 
             this.data_nasteriiDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.studentiBindingSource, "Data_nasterii", true));
             this.data_nasteriiDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.data_nasteriiDateTimePicker.Location = new System.Drawing.Point(97, 151);
+            this.data_nasteriiDateTimePicker.Location = new System.Drawing.Point(104, 160);
             this.data_nasteriiDateTimePicker.Name = "data_nasteriiDateTimePicker";
             this.data_nasteriiDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.data_nasteriiDateTimePicker.TabIndex = 7;
@@ -706,7 +722,7 @@
             // cNPTextBox
             // 
             this.cNPTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "CNP", true));
-            this.cNPTextBox.Location = new System.Drawing.Point(97, 177);
+            this.cNPTextBox.Location = new System.Drawing.Point(104, 186);
             this.cNPTextBox.Name = "cNPTextBox";
             this.cNPTextBox.Size = new System.Drawing.Size(200, 20);
             this.cNPTextBox.TabIndex = 9;
@@ -726,7 +742,7 @@
             "EE",
             "MPT",
             "SC"});
-            this.facultateComboBox.Location = new System.Drawing.Point(97, 203);
+            this.facultateComboBox.Location = new System.Drawing.Point(104, 212);
             this.facultateComboBox.Name = "facultateComboBox";
             this.facultateComboBox.Size = new System.Drawing.Size(200, 21);
             this.facultateComboBox.TabIndex = 11;
@@ -734,7 +750,7 @@
             // sectieTextBox
             // 
             this.sectieTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Sectie", true));
-            this.sectieTextBox.Location = new System.Drawing.Point(97, 230);
+            this.sectieTextBox.Location = new System.Drawing.Point(104, 239);
             this.sectieTextBox.Name = "sectieTextBox";
             this.sectieTextBox.Size = new System.Drawing.Size(200, 20);
             this.sectieTextBox.TabIndex = 13;
@@ -742,7 +758,7 @@
             // anNumericUpDown
             // 
             this.anNumericUpDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.studentiBindingSource, "An", true));
-            this.anNumericUpDown.Location = new System.Drawing.Point(97, 256);
+            this.anNumericUpDown.Location = new System.Drawing.Point(104, 265);
             this.anNumericUpDown.Name = "anNumericUpDown";
             this.anNumericUpDown.Size = new System.Drawing.Size(200, 20);
             this.anNumericUpDown.TabIndex = 15;
@@ -750,7 +766,7 @@
             // grupaTextBox
             // 
             this.grupaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Grupa", true));
-            this.grupaTextBox.Location = new System.Drawing.Point(97, 282);
+            this.grupaTextBox.Location = new System.Drawing.Point(104, 291);
             this.grupaTextBox.Name = "grupaTextBox";
             this.grupaTextBox.Size = new System.Drawing.Size(200, 20);
             this.grupaTextBox.TabIndex = 17;
@@ -758,6 +774,9 @@
             // tabPage4
             // 
             this.tabPage4.AutoScroll = true;
+            this.tabPage4.BackColor = System.Drawing.Color.White;
+            this.tabPage4.BackgroundImage = global::PSSC.Properties.Resources.bkg;
+            this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tabPage4.Controls.Add(this.bindingNavigator1);
             this.tabPage4.Controls.Add(this.materii_predateDataGridView);
             this.tabPage4.Controls.Add(numeLabel1);
@@ -774,7 +793,6 @@
             this.tabPage4.Size = new System.Drawing.Size(621, 417);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "INFO PROFESORI";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // bindingNavigator1
             // 
@@ -908,14 +926,15 @@
             // materii_predateDataGridView
             // 
             this.materii_predateDataGridView.AutoGenerateColumns = false;
+            this.materii_predateDataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.materii_predateDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.materii_predateDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.materii_predateDataGridView.DataSource = this.materii_predateBindingSource;
-            this.materii_predateDataGridView.Location = new System.Drawing.Point(346, 77);
+            this.materii_predateDataGridView.Location = new System.Drawing.Point(319, 82);
             this.materii_predateDataGridView.Name = "materii_predateDataGridView";
-            this.materii_predateDataGridView.Size = new System.Drawing.Size(243, 220);
+            this.materii_predateDataGridView.Size = new System.Drawing.Size(243, 249);
             this.materii_predateDataGridView.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn5
@@ -938,7 +957,7 @@
             // numeTextBox1
             // 
             this.numeTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.profesoriBindingSource, "Nume", true));
-            this.numeTextBox1.Location = new System.Drawing.Point(105, 121);
+            this.numeTextBox1.Location = new System.Drawing.Point(104, 147);
             this.numeTextBox1.Name = "numeTextBox1";
             this.numeTextBox1.Size = new System.Drawing.Size(200, 20);
             this.numeTextBox1.TabIndex = 1;
@@ -946,7 +965,7 @@
             // prenumeTextBox1
             // 
             this.prenumeTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.profesoriBindingSource, "Prenume", true));
-            this.prenumeTextBox1.Location = new System.Drawing.Point(105, 147);
+            this.prenumeTextBox1.Location = new System.Drawing.Point(104, 173);
             this.prenumeTextBox1.Name = "prenumeTextBox1";
             this.prenumeTextBox1.Size = new System.Drawing.Size(200, 20);
             this.prenumeTextBox1.TabIndex = 3;
@@ -955,7 +974,7 @@
             // 
             this.data_nasteriiDateTimePicker1.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.profesoriBindingSource, "Data_nasterii", true));
             this.data_nasteriiDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.data_nasteriiDateTimePicker1.Location = new System.Drawing.Point(105, 173);
+            this.data_nasteriiDateTimePicker1.Location = new System.Drawing.Point(104, 199);
             this.data_nasteriiDateTimePicker1.Name = "data_nasteriiDateTimePicker1";
             this.data_nasteriiDateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.data_nasteriiDateTimePicker1.TabIndex = 5;
@@ -963,7 +982,7 @@
             // cNPTextBox1
             // 
             this.cNPTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.profesoriBindingSource, "CNP", true));
-            this.cNPTextBox1.Location = new System.Drawing.Point(105, 199);
+            this.cNPTextBox1.Location = new System.Drawing.Point(104, 225);
             this.cNPTextBox1.Name = "cNPTextBox1";
             this.cNPTextBox1.Size = new System.Drawing.Size(200, 20);
             this.cNPTextBox1.TabIndex = 7;
@@ -971,6 +990,9 @@
             // tabPage2
             // 
             this.tabPage2.AutoScroll = true;
+            this.tabPage2.BackColor = System.Drawing.Color.White;
+            this.tabPage2.BackgroundImage = global::PSSC.Properties.Resources.bkg;
+            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.noteDataGridView1);
@@ -994,19 +1016,20 @@
             this.tabPage2.Size = new System.Drawing.Size(635, 449);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "STUDENT";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Location = new System.Drawing.Point(8, 74);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(619, 367);
-            this.panel1.TabIndex = 22;
+            this.panel1.TabIndex = 24;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(324, 397);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(377, 377);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 21;
@@ -1015,15 +1038,16 @@
             // noteDataGridView1
             // 
             this.noteDataGridView1.AutoGenerateColumns = false;
+            this.noteDataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.noteDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.noteDataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.noteDataGridView1.DataSource = this.noteBindingSource;
-            this.noteDataGridView1.Location = new System.Drawing.Point(308, 82);
+            this.noteDataGridView1.Location = new System.Drawing.Point(326, 98);
             this.noteDataGridView1.Name = "noteDataGridView1";
             this.noteDataGridView1.ReadOnly = true;
-            this.noteDataGridView1.Size = new System.Drawing.Size(243, 293);
+            this.noteDataGridView1.Size = new System.Drawing.Size(243, 249);
             this.noteDataGridView1.TabIndex = 14;
             // 
             // dataGridViewTextBoxColumn7
@@ -1042,55 +1066,61 @@
             // 
             // numeLabel3
             // 
+            this.numeLabel3.BackColor = System.Drawing.Color.Transparent;
             this.numeLabel3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Nume", true));
-            this.numeLabel3.Location = new System.Drawing.Point(168, 145);
+            this.numeLabel3.Location = new System.Drawing.Point(146, 147);
             this.numeLabel3.Name = "numeLabel3";
             this.numeLabel3.Size = new System.Drawing.Size(100, 23);
             this.numeLabel3.TabIndex = 3;
             // 
             // prenumeLabel3
             // 
+            this.prenumeLabel3.BackColor = System.Drawing.Color.Transparent;
             this.prenumeLabel3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Prenume", true));
-            this.prenumeLabel3.Location = new System.Drawing.Point(168, 168);
+            this.prenumeLabel3.Location = new System.Drawing.Point(146, 170);
             this.prenumeLabel3.Name = "prenumeLabel3";
             this.prenumeLabel3.Size = new System.Drawing.Size(100, 23);
             this.prenumeLabel3.TabIndex = 5;
             // 
             // facultateLabel2
             // 
+            this.facultateLabel2.BackColor = System.Drawing.Color.Transparent;
             this.facultateLabel2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Facultate", true));
-            this.facultateLabel2.Location = new System.Drawing.Point(168, 191);
+            this.facultateLabel2.Location = new System.Drawing.Point(146, 193);
             this.facultateLabel2.Name = "facultateLabel2";
             this.facultateLabel2.Size = new System.Drawing.Size(100, 23);
             this.facultateLabel2.TabIndex = 7;
             // 
             // sectieLabel2
             // 
+            this.sectieLabel2.BackColor = System.Drawing.Color.Transparent;
             this.sectieLabel2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Sectie", true));
-            this.sectieLabel2.Location = new System.Drawing.Point(168, 214);
+            this.sectieLabel2.Location = new System.Drawing.Point(146, 216);
             this.sectieLabel2.Name = "sectieLabel2";
             this.sectieLabel2.Size = new System.Drawing.Size(100, 23);
             this.sectieLabel2.TabIndex = 9;
             // 
             // anLabel2
             // 
+            this.anLabel2.BackColor = System.Drawing.Color.Transparent;
             this.anLabel2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "An", true));
-            this.anLabel2.Location = new System.Drawing.Point(168, 237);
+            this.anLabel2.Location = new System.Drawing.Point(146, 239);
             this.anLabel2.Name = "anLabel2";
             this.anLabel2.Size = new System.Drawing.Size(100, 23);
             this.anLabel2.TabIndex = 11;
             // 
             // grupaLabel2
             // 
+            this.grupaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.grupaLabel2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Grupa", true));
-            this.grupaLabel2.Location = new System.Drawing.Point(168, 260);
+            this.grupaLabel2.Location = new System.Drawing.Point(146, 262);
             this.grupaLabel2.Name = "grupaLabel2";
             this.grupaLabel2.Size = new System.Drawing.Size(100, 23);
             this.grupaLabel2.TabIndex = 13;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(327, 30);
+            this.textBox1.Location = new System.Drawing.Point(387, 47);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -1099,7 +1129,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(136, 33);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(185, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 13);
             this.label1.TabIndex = 0;
@@ -1108,6 +1139,9 @@
             // tabPage5
             // 
             this.tabPage5.AutoScroll = true;
+            this.tabPage5.BackColor = System.Drawing.Color.White;
+            this.tabPage5.BackgroundImage = global::PSSC.Properties.Resources.bkg;
+            this.tabPage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tabPage5.Controls.Add(this.panel2);
             this.tabPage5.Controls.Add(this.button1);
             this.tabPage5.Controls.Add(this.noteDataGridView2);
@@ -1130,18 +1164,18 @@
             this.tabPage5.Size = new System.Drawing.Size(635, 449);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "PROFESOR";
-            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Location = new System.Drawing.Point(8, 74);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(619, 367);
-            this.panel2.TabIndex = 23;
+            this.panel2.TabIndex = 25;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(388, 390);
+            this.button1.Location = new System.Drawing.Point(401, 370);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
@@ -1152,14 +1186,15 @@
             // noteDataGridView2
             // 
             this.noteDataGridView2.AutoGenerateColumns = false;
+            this.noteDataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
             this.noteDataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.noteDataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
             this.noteDataGridView2.DataSource = this.noteBindingSource;
-            this.noteDataGridView2.Location = new System.Drawing.Point(308, 84);
+            this.noteDataGridView2.Location = new System.Drawing.Point(326, 98);
             this.noteDataGridView2.Name = "noteDataGridView2";
-            this.noteDataGridView2.Size = new System.Drawing.Size(243, 280);
+            this.noteDataGridView2.Size = new System.Drawing.Size(243, 249);
             this.noteDataGridView2.TabIndex = 14;
             // 
             // dataGridViewTextBoxColumn9
@@ -1176,55 +1211,61 @@
             // 
             // numeLabel5
             // 
+            this.numeLabel5.BackColor = System.Drawing.Color.Transparent;
             this.numeLabel5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Nume", true));
-            this.numeLabel5.Location = new System.Drawing.Point(161, 147);
+            this.numeLabel5.Location = new System.Drawing.Point(146, 147);
             this.numeLabel5.Name = "numeLabel5";
             this.numeLabel5.Size = new System.Drawing.Size(100, 23);
             this.numeLabel5.TabIndex = 4;
             // 
             // prenumeLabel5
             // 
+            this.prenumeLabel5.BackColor = System.Drawing.Color.Transparent;
             this.prenumeLabel5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Prenume", true));
-            this.prenumeLabel5.Location = new System.Drawing.Point(161, 170);
+            this.prenumeLabel5.Location = new System.Drawing.Point(146, 170);
             this.prenumeLabel5.Name = "prenumeLabel5";
             this.prenumeLabel5.Size = new System.Drawing.Size(100, 23);
             this.prenumeLabel5.TabIndex = 6;
             // 
             // facultateLabel4
             // 
+            this.facultateLabel4.BackColor = System.Drawing.Color.Transparent;
             this.facultateLabel4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Facultate", true));
-            this.facultateLabel4.Location = new System.Drawing.Point(161, 193);
+            this.facultateLabel4.Location = new System.Drawing.Point(146, 193);
             this.facultateLabel4.Name = "facultateLabel4";
             this.facultateLabel4.Size = new System.Drawing.Size(100, 23);
             this.facultateLabel4.TabIndex = 8;
             // 
             // sectieLabel4
             // 
+            this.sectieLabel4.BackColor = System.Drawing.Color.Transparent;
             this.sectieLabel4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Sectie", true));
-            this.sectieLabel4.Location = new System.Drawing.Point(161, 216);
+            this.sectieLabel4.Location = new System.Drawing.Point(146, 216);
             this.sectieLabel4.Name = "sectieLabel4";
             this.sectieLabel4.Size = new System.Drawing.Size(100, 23);
             this.sectieLabel4.TabIndex = 10;
             // 
             // anLabel4
             // 
+            this.anLabel4.BackColor = System.Drawing.Color.Transparent;
             this.anLabel4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "An", true));
-            this.anLabel4.Location = new System.Drawing.Point(161, 239);
+            this.anLabel4.Location = new System.Drawing.Point(146, 239);
             this.anLabel4.Name = "anLabel4";
             this.anLabel4.Size = new System.Drawing.Size(100, 23);
             this.anLabel4.TabIndex = 12;
             // 
             // grupaLabel4
             // 
+            this.grupaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.grupaLabel4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.studentiBindingSource, "Grupa", true));
-            this.grupaLabel4.Location = new System.Drawing.Point(161, 262);
+            this.grupaLabel4.Location = new System.Drawing.Point(146, 262);
             this.grupaLabel4.Name = "grupaLabel4";
             this.grupaLabel4.Size = new System.Drawing.Size(100, 23);
             this.grupaLabel4.TabIndex = 14;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(346, 30);
+            this.textBox2.Location = new System.Drawing.Point(387, 47);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
@@ -1233,7 +1274,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(115, 33);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(145, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(225, 13);
             this.label2.TabIndex = 2;
@@ -1241,6 +1283,9 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.BackColor = System.Drawing.Color.White;
+            this.tabPage6.BackgroundImage = global::PSSC.Properties.Resources.bkg;
+            this.tabPage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.tabPage6.Controls.Add(this.dataGridView1);
             this.tabPage6.Controls.Add(this.button2);
             this.tabPage6.Controls.Add(this.textBox5);
@@ -1252,10 +1297,10 @@
             this.tabPage6.Size = new System.Drawing.Size(635, 449);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "ADMINISTRATOR CAMIN";
-            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(47, 56);
             this.dataGridView1.Name = "dataGridView1";
@@ -1297,6 +1342,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Location = new System.Drawing.Point(71, 17);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(393, 13);
@@ -1333,8 +1379,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(643, 475);
             this.Controls.Add(this.tabControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UPT";
             this.Text = "Baza de Date UPT";
             this.Load += new System.EventHandler(this.UPTLoad);
