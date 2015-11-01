@@ -62,7 +62,7 @@ namespace PSSC
             int sum = 0;
             for (int i = 0; i < dgv.Rows.Count; i++)
                 sum += Convert.ToInt32(dgv.Rows[i].Cells[1].Value);
-            return (double)sum / (dgv.RowCount - 1);
+            return Math.Round((double)sum / (dgv.RowCount - 1),2);
         }
 
         private void studentiPositionChanged(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace PSSC
                         suma += Convert.ToInt32(dr["Nota"].ToString());
                         n++;
                     }
-                FisaCazare fisa = new FisaCazare(drv["Nume"].ToString(), drv["Prenume"].ToString(), drv["Facultate"].ToString(), Convert.ToInt32(drv["An"].ToString()), (double)suma / n);
+                FisaCazare fisa = new FisaCazare(drv["Nume"].ToString(), drv["Prenume"].ToString(), drv["Facultate"].ToString(), Convert.ToInt32(drv["An"].ToString()), Math.Round((double)suma / n,2));
                 fise.Add(fisa);
             }
             List<FisaCazare> SortedList = fise.OrderByDescending(o => o.Medie).ToList().FindAll(c => (c.Medie<=max) && (c.Medie>=min));
